@@ -14,4 +14,3 @@ public class Circle {
         System.out.println("My area is: " +  area);
     }
 }
-
