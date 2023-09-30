@@ -12,7 +12,7 @@ public class Rectangle {
     public Rectangle(int len, int wid, int hei) {
         length = len;
         width = wid;
-        height=hei;
+        height = hei;
     }
 
     // method that calculates and prints area
@@ -24,5 +24,19 @@ public class Rectangle {
     public void printVolume() {
         int volume = length * width * height;
         System.out.println("My volume is " + volume);
+
     }
+
+
+    public int calculateArea() {
+        int calculateArea = (length * width);
+        System.out.println("My area is " + calculateArea);
+        return calculateArea;
+    }
+
 }
+
+
+
+
+
